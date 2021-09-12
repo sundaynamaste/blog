@@ -31,12 +31,12 @@ module.exports = {
           id: "AdvancedUser", // Unique identifier of the user on the website. Used for OpenGraph SEO tags
           firstName: "Advanced", // Used for SEO
           lastName: "User", // Used for SEO
-          twitterName: "Vagr9K", // Twitter username used for SEO
-          linkedIn: "your-linkedin", // Used for contact information
-          github: "vagr9k", // Used for contact information
-          email: "AdvancedUser@example.com", // Used for contact information and displayed in the RSS feed
-          location: "User Location", // User location used for SEO
-          about: "A full-stack web developer looking for a challenge!", // User information used for the author section
+          twitterName: "", // Twitter username used for SEO
+          linkedIn: "", // Used for contact information
+          github: "", // Used for contact information
+          email: "help@sundaynamaste.com", // Used for contact information and displayed in the RSS feed
+          location: "Seoul", // User location used for SEO
+          about: "about sundaynamaste", // User information used for the author section
           avatar: "https://i.pravatar.cc/300", // User avatar used for the author section
         },
 
@@ -44,7 +44,7 @@ module.exports = {
         organization: {
           name: "Organization Name",
           description: "Organization description",
-          // logoUrl: "/logos/logo-512.png",
+          logoUrl: "/logos/logo-512.png",
           url: "https://gatsby-advanced-starter-demo.netlify.com", // URL of the organization website
         },
 
